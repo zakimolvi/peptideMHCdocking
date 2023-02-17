@@ -31,3 +31,5 @@ function pretty_tsv {
 <p align="center">
 <img src="7_Ser4_interaction_fa_elec.png" width=50% height=50%>
 </p>
+
+`tcrm-pMHC-analysis.py`: Analysis of scored structures used in [Dao & Mun et al. JCI Insight (2022).](https://doi.org/10.1172/jci.insight.151624)
