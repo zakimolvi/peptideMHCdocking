@@ -27,7 +27,7 @@ function pretty_tsv {
 <img src="6_MGAPwt_ddg.png" width=50% height=50%>
 </p>
 
-`HLAinterface_analysis.py`: Determine which HLA residues are making direct contacts contribute the most to energy terms
+`HLAinterface_analysis.py`: Determine which HLA residues making direct peptide contacts contribute the most to energy terms
 <p align="center">
 <img src="7_Ser4_interaction_fa_elec.png" width=50% height=50%>
 </p>
