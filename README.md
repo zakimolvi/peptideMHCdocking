@@ -3,8 +3,8 @@ Docking peptides of interest to MHC using a local installation of Rosetta Modeli
 
 ## Requirements
 - Local Rosetta3 installation
-- Python3 along with `pandas`, `statannot`, `seaborn`, `matplotlib`, `numpy`
-- `pretty_tsv`:
+- Python3 with `pandas`, `statannot`, `seaborn`, `matplotlib`, `numpy`
+- [`pretty_tsv`](https://gist.github.com/soxofaan/af407f793382623d039805f50144af6e):
 ```
 function pretty_tsv {
     column -t -s $'\t' -n "$@" | less -F -S -X -K
@@ -18,7 +18,11 @@ function pretty_tsv {
 `assemble_scorefiles.py`: Concatenate score files of multiple simulations and annotate with HLA and peptide name
 
 `plotScores.py`: Plot scores and add t-test annotation
-![](2_flexpepscores.png)
+<p align="center">
+<img src="2_flexpepscores.png" width=50% height=50%>
+</p>
 
 `residueAnalysis.py`: Breakdown Rosetta score by energy term and visualize each term's mean ddG between two structures.
-![](6_MGAPwt_ddg.png)
+<p align="center">
+<img src="6_MGAPwt_ddg.png" width=50% height=50%>
+</p>
