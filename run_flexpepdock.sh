@@ -10,3 +10,6 @@ $ROSETTA3/bin/FlexPepDocking.macosclangrelease -pep_refine -nstruct 200 -ex1 -ex
 
 #view score file
 pretty_tsv score.sc
+
+# get score of top 10 models
+run_gettop10.sh
