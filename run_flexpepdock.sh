@@ -13,3 +13,4 @@ pretty_tsv score.sc
 
 # get score of top 10 models
 bash run_gettop10.sh
+python get_top10.py
