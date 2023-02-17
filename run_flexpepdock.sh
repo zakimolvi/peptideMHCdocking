@@ -2,7 +2,7 @@
 # Given an input structure of a peptide of interest threaded onto MHC, use Rosetta's FlexPepDock protocol to perform high-resolution docking.
 
 # rosetta path
-$ROSETTA3=~/rosetta_bin_mac_2020.08.61146_bundle/main/source
+$ROSETTA3="~/rosetta_bin_mac_2020.08.61146_bundle/main/source"
 
 #prepack input pdb and dock
 $ROSETTA3/bin/FlexPepDocking.macosclangrelease -flexpep_prepack -ex1 -ex2aro -use_input_sc -out:suffix _prepacked -out:no_nstruct_label -s input.pdb
